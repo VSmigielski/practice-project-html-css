@@ -27,36 +27,6 @@ main {
     padding: 32px;
 }
 
-footer {
-    text-align: center;
-}
-
-#download-pdf {
-    font-family: 'Fira Sans', sans-serif;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(250,201,35); /* Green */
-    padding: 15px 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 1px solid rgb(250,201,35);
-}
-
-.mdn-links {
-    text-decoration: none;
-    color: rgb(36, 3, 102);
-    background-color: rgb(255, 237, 177); /* Green */
-    padding: 2px 6px;
-    border-radius: 4px;
-}
-
-.mdn-links:hover, .mdn-links:active {
-    background-color: rgb(250, 201, 39);
-}
-
 ul {
     margin: 0;
     padding: 0;
@@ -76,4 +46,37 @@ li {
 
 .highlight {
     font-weight: bold;
+}
+
+.mdn-links {
+    text-decoration: none;
+    color: rgb(36, 3, 102);
+    background-color: rgb(255, 237, 177); 
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.mdn-links:hover, .mdn-links:active {
+    background-color: rgb(250, 201, 39);
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: rgb(131, 113, 149);
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(248, 241, 255);
+    background-color: rgb(250,201,39); 
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+footer a:hover, footer a:active {
+    background-color: rgb(255, 186, 58);
 }
