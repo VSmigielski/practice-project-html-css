@@ -44,10 +44,6 @@ li {
     border-color: rgb(247, 209, 85);
 }
 
-.highlight {
-    font-weight: bold;
-}
-
 .mdn-links {
     text-decoration: none;
     color: rgb(36, 3, 102);
@@ -69,7 +65,7 @@ footer p {
     margin-top: 30px;
 }
 
-footer a {
+#download-pdf {
     text-decoration: none;
     color: rgb(248, 241, 255);
     background-color: rgb(250,201,39); 
@@ -77,6 +73,6 @@ footer a {
     border-radius: 8px;
 }
 
-footer a:hover, footer a:active {
+#download-pdf:hover, #download-pdf:active {
     background-color: rgb(255, 186, 58);
 }
